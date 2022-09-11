@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="no" active="yes"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="no" active="yes"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="no" active="yes"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="no" active="yes"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="no" active="yes"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="TTGO_T8_V1_7">
+<pad name="IO25" x="17.78" y="0" drill="1" rot="R90"/>
+<pad name="IO23" x="17.78" y="-22.352" drill="1" rot="R90"/>
+<pad name="IO26" x="15.24" y="0" drill="1" rot="R90"/>
+<pad name="IO27" x="12.7" y="0" drill="1" rot="R90"/>
+<pad name="IO14" x="10.16" y="0" drill="1" rot="R90"/>
+<pad name="IO12" x="7.62" y="0" drill="1" rot="R90"/>
+<pad name="IO13" x="5.08" y="0" drill="1" rot="R90"/>
+<pad name="IO15" x="2.54" y="0" drill="1" rot="R90"/>
+<pad name="GND" x="0" y="0" drill="1" rot="R90" first="yes"/>
+<pad name="IO18" x="15.24" y="-22.352" drill="1" rot="R90"/>
+<pad name="IO05" x="12.7" y="-22.352" drill="1" rot="R90"/>
+<pad name="IO02" x="10.16" y="-22.352" drill="1" rot="R90"/>
+<pad name="GND2" x="7.62" y="-22.352" drill="1" rot="R90"/>
+<pad name="IO0" x="5.08" y="-22.352" drill="1" rot="R90"/>
+<pad name="IO04" x="2.54" y="-22.352" drill="1" rot="R90"/>
+<pad name="5V" x="0" y="-22.352" drill="1" rot="R90"/>
+<pad name="IO19" x="20.32" y="-22.352" drill="1" rot="R90"/>
+<pad name="IO22" x="22.86" y="-22.352" drill="1" rot="R90"/>
+<pad name="UART_RX" x="25.4" y="-22.352" drill="1" rot="R90"/>
+<pad name="UART_TX" x="27.94" y="-22.352" drill="1" rot="R90"/>
+<pad name="IO21" x="30.48" y="-22.352" drill="1" rot="R90"/>
+<pad name="3.3V" x="33.02" y="-22.352" drill="1" rot="R90"/>
+<pad name="GND3" x="35.56" y="-22.352" drill="1" rot="R90"/>
+<pad name="IO33" x="20.32" y="0" drill="1" rot="R90"/>
+<pad name="IO32" x="22.86" y="0" drill="1" rot="R90"/>
+<pad name="IO35" x="25.4" y="0" drill="1" rot="R90"/>
+<pad name="IO34" x="27.94" y="0" drill="1" rot="R90"/>
+<pad name="RST_EN" x="30.48" y="0" drill="1" rot="R90"/>
+<pad name="IO39_VN" x="33.02" y="0" drill="1" rot="R90"/>
+<pad name="IO36_VP" x="35.56" y="0" drill="1" rot="R90"/>
+<wire x1="43.18" y1="1.27" x2="43.18" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="43.18" y1="-5.08" x2="43.18" y2="-19.05" width="0.127" layer="21"/>
+<wire x1="43.18" y1="-19.05" x2="43.18" y2="-23.876" width="0.127" layer="21"/>
+<wire x1="43.18" y1="1.27" x2="-3.81" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="1.27" x2="-10.16" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-10.16" y1="1.27" x2="-11.43" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-11.43" y1="1.27" x2="-12.7" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-12.7" y1="1.27" x2="-20.32" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-20.32" y1="1.27" x2="-20.32" y2="-23.876" width="0.127" layer="21"/>
+<wire x1="-20.32" y1="-23.876" x2="-15.24" y2="-23.876" width="0.127" layer="21"/>
+<wire x1="-15.24" y1="-23.876" x2="-5.08" y2="-23.876" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="-23.876" x2="43.18" y2="-23.876" width="0.127" layer="21"/>
+<wire x1="-15.24" y1="-23.876" x2="-15.24" y2="-21.59" width="0.127" layer="21"/>
+<wire x1="-15.24" y1="-21.59" x2="-13.97" y2="-20.574" width="0.127" layer="21"/>
+<wire x1="-13.97" y1="-20.574" x2="-6.35" y2="-20.574" width="0.127" layer="21"/>
+<wire x1="-6.35" y1="-20.574" x2="-5.08" y2="-21.59" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="-21.59" x2="-5.08" y2="-23.876" width="0.127" layer="21"/>
+<wire x1="-21.59" y1="-19.05" x2="-16.51" y2="-19.05" width="0.127" layer="21"/>
+<wire x1="-16.51" y1="-19.05" x2="-16.51" y2="-11.43" width="0.127" layer="21"/>
+<wire x1="-16.51" y1="-11.43" x2="-21.59" y2="-11.43" width="0.127" layer="21"/>
+<wire x1="-21.59" y1="-11.43" x2="-21.59" y2="-19.05" width="0.127" layer="21"/>
+<wire x1="43.18" y1="-5.08" x2="36.83" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="36.83" y1="-5.08" x2="36.83" y2="-19.05" width="0.127" layer="21"/>
+<wire x1="36.83" y1="-19.05" x2="43.18" y2="-19.05" width="0.127" layer="21"/>
+<wire x1="41.91" y1="-17.78" x2="38.1" y2="-17.78" width="0.127" layer="21"/>
+<wire x1="38.1" y1="-17.78" x2="38.1" y2="-6.35" width="0.127" layer="21"/>
+<wire x1="38.1" y1="-6.35" x2="41.91" y2="-6.35" width="0.127" layer="21"/>
+<wire x1="41.91" y1="-6.35" x2="41.91" y2="-16.51" width="0.127" layer="21"/>
+<wire x1="41.91" y1="-16.51" x2="39.37" y2="-16.51" width="0.127" layer="21"/>
+<wire x1="39.37" y1="-16.51" x2="39.37" y2="-8.89" width="0.127" layer="21"/>
+<wire x1="39.37" y1="-8.89" x2="40.64" y2="-8.89" width="0.127" layer="21"/>
+<text x="0" y="-5.08" size="1.27" layer="21" rot="R90">GND</text>
+<text x="2.54" y="-5.08" size="1.27" layer="21" rot="R90">IO15</text>
+<text x="5.08" y="-5.08" size="1.27" layer="21" rot="R90">IO13</text>
+<text x="7.62" y="-5.08" size="1.27" layer="21" rot="R90">IO12</text>
+<text x="10.16" y="-5.08" size="1.27" layer="21" rot="R90">IO14</text>
+<text x="12.7" y="-5.08" size="1.27" layer="21" rot="R90">IO27</text>
+<text x="15.24" y="-5.08" size="1.27" layer="21" rot="R90">IO26</text>
+<text x="17.78" y="-5.08" size="1.27" layer="21" rot="R90">IO25</text>
+<text x="20.32" y="-5.08" size="1.27" layer="21" rot="R90">IO33</text>
+<text x="22.86" y="-5.08" size="1.27" layer="21" rot="R90">IO32</text>
+<text x="25.4" y="-5.08" size="1.27" layer="21" rot="R90">IO35</text>
+<text x="27.94" y="-5.08" size="1.27" layer="21" rot="R90">IO34</text>
+<text x="30.48" y="-8.89" size="1.27" layer="21" rot="R90">RST_EN</text>
+<text x="33.02" y="-8.89" size="1.27" layer="21" rot="R90">IO39_VN</text>
+<text x="35.56" y="-8.89" size="1.27" layer="21" rot="R90">IO36_VP</text>
+<text x="-13.716" y="-22.86" size="1.27" layer="21">SD Card</text>
+<text x="-17.78" y="-17.78" size="1.27" layer="21" rot="R90">USB</text>
+<text x="0" y="-21.082" size="1.27" layer="21" rot="R90">5V</text>
+<text x="2.54" y="-21.082" size="1.27" layer="21" rot="R90">IO04</text>
+<text x="5.08" y="-21.082" size="1.27" layer="21" rot="R90">IO0</text>
+<text x="7.62" y="-21.082" size="1.27" layer="21" rot="R90">GND</text>
+<text x="10.16" y="-21.082" size="1.27" layer="21" rot="R90">IO02</text>
+<text x="12.7" y="-21.082" size="1.27" layer="21" rot="R90">IO05</text>
+<text x="15.24" y="-21.082" size="1.27" layer="21" rot="R90">IO18</text>
+<text x="17.78" y="-21.082" size="1.27" layer="21" rot="R90">IO23</text>
+<text x="20.32" y="-21.082" size="1.27" layer="21" rot="R90">IO19</text>
+<text x="22.86" y="-21.082" size="1.27" layer="21" rot="R90">IO22</text>
+<text x="25.4" y="-21.082" size="1.27" layer="21" rot="R90">RX</text>
+<text x="27.94" y="-21.082" size="1.27" layer="21" rot="R90">TX</text>
+<text x="30.48" y="-21.082" size="1.27" layer="21" rot="R90">IO21</text>
+<text x="33.02" y="-21.082" size="1.27" layer="21" rot="R90">3.3V</text>
+<text x="35.56" y="-21.082" size="1.27" layer="21" rot="R90">GND</text>
+<text x="0" y="-12.7" size="2.54" layer="21">TTGO T8 V 1.7</text>
+<wire x1="-19.05" y1="-1.27" x2="-19.05" y2="-8.89" width="0.127" layer="21"/>
+<wire x1="-19.05" y1="-8.89" x2="-13.97" y2="-8.89" width="0.127" layer="21"/>
+<wire x1="-13.97" y1="-8.89" x2="-13.97" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-13.97" y1="-1.27" x2="-19.05" y2="-1.27" width="0.127" layer="21"/>
+<text x="-15.24" y="-7.62" size="2.54" layer="21" rot="R90">Bat</text>
+<wire x1="-12.7" y1="1.27" x2="-12.7" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-12.7" y1="-1.27" x2="-3.81" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="-1.27" x2="-3.81" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-11.43" y1="1.27" x2="-11.43" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-11.43" y1="2.54" x2="-10.16" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-10.16" y1="2.54" x2="-10.16" y2="1.27" width="0.127" layer="21"/>
+<text x="-11.43" y="-3.81" size="1.27" layer="21">Power</text>
+</package>
+</packages>
+<symbols>
+<symbol name="TTGO_T8_V1_7">
+<pin name="GND" x="-20.32" y="-17.78" visible="pin" length="middle" direction="pwr"/>
+<pin name="IO15" x="-20.32" y="-15.24" visible="pin" length="middle"/>
+<pin name="IO13" x="-20.32" y="-12.7" visible="pin" length="middle"/>
+<pin name="IO12" x="-20.32" y="-10.16" visible="pin" length="middle"/>
+<pin name="IO14" x="-20.32" y="-7.62" visible="pin" length="middle"/>
+<pin name="IO27" x="-20.32" y="-5.08" visible="pin" length="middle"/>
+<pin name="IO26" x="-20.32" y="-2.54" visible="pin" length="middle"/>
+<pin name="IO25" x="-20.32" y="0" visible="pin" length="middle"/>
+<pin name="IO33" x="-20.32" y="2.54" visible="pin" length="middle"/>
+<pin name="IO32" x="-20.32" y="5.08" visible="pin" length="middle"/>
+<pin name="I35" x="-20.32" y="7.62" visible="pin" length="middle" direction="in"/>
+<pin name="I34" x="-20.32" y="10.16" visible="pin" length="middle" direction="in"/>
+<pin name="RST" x="-20.32" y="12.7" visible="pin" length="middle" direction="in"/>
+<pin name="I39_VN" x="-20.32" y="15.24" visible="pin" length="middle" direction="in"/>
+<pin name="I36_VP" x="-20.32" y="17.78" visible="pin" length="middle" direction="in"/>
+<pin name="GND2" x="17.78" y="17.78" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="3.3V" x="17.78" y="15.24" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="IO21_SDA" x="17.78" y="12.7" visible="pin" length="middle" rot="R180"/>
+<pin name="TX" x="17.78" y="10.16" visible="pin" length="middle" rot="R180"/>
+<pin name="RX" x="17.78" y="7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="IO22_SCL" x="17.78" y="5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="IO19" x="17.78" y="2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="IO23" x="17.78" y="0" visible="pin" length="middle" rot="R180"/>
+<pin name="IO18" x="17.78" y="-2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="IO5" x="17.78" y="-5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="IO2" x="17.78" y="-7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="GND3" x="17.78" y="-10.16" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="IO0" x="17.78" y="-12.7" visible="pin" length="middle" rot="R180"/>
+<pin name="IO4" x="17.78" y="-15.24" visible="pin" length="middle" rot="R180"/>
+<pin name="5V" x="17.78" y="-17.78" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<wire x1="-15.24" y1="20.32" x2="-15.24" y2="-20.32" width="0.1524" layer="94"/>
+<wire x1="-15.24" y1="-20.32" x2="12.7" y2="-20.32" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="-20.32" x2="12.7" y2="20.32" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="20.32" x2="-15.24" y2="20.32" width="0.1524" layer="94"/>
+<text x="-15.24" y="20.32" size="1.778" layer="94">TTGO T8 V1.71</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TTGO_T8_V1_7">
+<gates>
+<gate name="TGT8" symbol="TTGO_T8_V1_7" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TTGO_T8_V1_7">
+<connects>
+<connect gate="TGT8" pin="3.3V" pad="3.3V"/>
+<connect gate="TGT8" pin="5V" pad="5V"/>
+<connect gate="TGT8" pin="GND" pad="GND"/>
+<connect gate="TGT8" pin="GND2" pad="GND3"/>
+<connect gate="TGT8" pin="GND3" pad="GND2"/>
+<connect gate="TGT8" pin="I34" pad="IO34"/>
+<connect gate="TGT8" pin="I35" pad="IO35"/>
+<connect gate="TGT8" pin="I36_VP" pad="IO36_VP"/>
+<connect gate="TGT8" pin="I39_VN" pad="IO39_VN"/>
+<connect gate="TGT8" pin="IO0" pad="IO0"/>
+<connect gate="TGT8" pin="IO12" pad="IO12"/>
+<connect gate="TGT8" pin="IO13" pad="IO13"/>
+<connect gate="TGT8" pin="IO14" pad="IO14"/>
+<connect gate="TGT8" pin="IO15" pad="IO15"/>
+<connect gate="TGT8" pin="IO18" pad="IO18"/>
+<connect gate="TGT8" pin="IO19" pad="IO19"/>
+<connect gate="TGT8" pin="IO2" pad="IO02"/>
+<connect gate="TGT8" pin="IO21_SDA" pad="IO21"/>
+<connect gate="TGT8" pin="IO22_SCL" pad="IO22"/>
+<connect gate="TGT8" pin="IO23" pad="IO23"/>
+<connect gate="TGT8" pin="IO25" pad="IO25"/>
+<connect gate="TGT8" pin="IO26" pad="IO26"/>
+<connect gate="TGT8" pin="IO27" pad="IO27"/>
+<connect gate="TGT8" pin="IO32" pad="IO32"/>
+<connect gate="TGT8" pin="IO33" pad="IO33"/>
+<connect gate="TGT8" pin="IO4" pad="IO04"/>
+<connect gate="TGT8" pin="IO5" pad="IO05"/>
+<connect gate="TGT8" pin="RST" pad="RST_EN"/>
+<connect gate="TGT8" pin="RX" pad="UART_RX"/>
+<connect gate="TGT8" pin="TX" pad="UART_TX"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

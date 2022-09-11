@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.127" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mm"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="0" fill="1" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="0" fill="1" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>Upverter Parts Library
+
+Created by Upverter.com</description>
+<packages>
+<package name="INTERSIL_CA3046_0">
+<description>General Purpose NPN Transistor Array</description>
+<circle x="-2.495" y="4.22" radius="0.1" width="0.2" layer="21"/>
+<circle x="-2.495" y="4.22" radius="0.1" width="0.2" layer="51"/>
+<wire x1="-0.26" y1="4.742" x2="4.07" y2="4.742" width="0.127" layer="51"/>
+<wire x1="-0.26" y1="-4.615" x2="4.07" y2="-4.615" width="0.127" layer="51"/>
+<wire x1="-0.26" y1="4.742" x2="4.07" y2="4.742" width="0.127" layer="21"/>
+<wire x1="-0.26" y1="-4.615" x2="4.07" y2="-4.615" width="0.127" layer="21"/>
+<wire x1="-0.26" y1="4.742" x2="-0.26" y2="-4.615" width="0.127" layer="51"/>
+<wire x1="4.07" y1="4.742" x2="4.07" y2="-4.615" width="0.127" layer="51"/>
+<wire x1="-1.906" y1="4.992" x2="5.716" y2="4.992" width="0.05" layer="39"/>
+<wire x1="-1.906" y1="-4.865" x2="5.716" y2="-4.865" width="0.05" layer="39"/>
+<wire x1="-1.906" y1="4.992" x2="-1.906" y2="-4.865" width="0.05" layer="39"/>
+<wire x1="5.716" y1="4.992" x2="5.716" y2="-4.865" width="0.05" layer="39"/>
+<text x="-2.23" y="-5.8" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
+<text x="-2.23" y="5.8" size="1.27" layer="25">&gt;NAME</text>
+<smd name="1" x="-0.925" y="3.81" dx="1.5" dy="0.61" layer="1" locked="yes" roundness="25"/>
+<smd name="2" x="-0.925" y="2.54" dx="1.5" dy="0.61" layer="1" locked="yes" roundness="25"/>
+<smd name="3" x="-0.925" y="1.27" dx="1.5" dy="0.61" layer="1" locked="yes" roundness="25"/>
+<smd name="4" x="-0.925" y="0" dx="1.5" dy="0.61" layer="1" locked="yes" roundness="25"/>
+<smd name="5" x="-0.925" y="-1.27" dx="1.5" dy="0.61" layer="1" locked="yes" roundness="25"/>
+<smd name="6" x="-0.925" y="-2.54" dx="1.5" dy="0.61" layer="1" locked="yes" roundness="25"/>
+<smd name="7" x="-0.925" y="-3.81" dx="1.5" dy="0.61" layer="1" locked="yes" roundness="25"/>
+<smd name="8" x="4.735" y="-3.81" dx="1.5" dy="0.61" layer="1" locked="yes" roundness="25"/>
+<smd name="9" x="4.735" y="-2.54" dx="1.5" dy="0.61" layer="1" locked="yes" roundness="25"/>
+<smd name="10" x="4.735" y="-1.27" dx="1.5" dy="0.61" layer="1" locked="yes" roundness="25"/>
+<smd name="11" x="4.735" y="0" dx="1.5" dy="0.61" layer="1" locked="yes" roundness="25"/>
+<smd name="12" x="4.735" y="1.27" dx="1.5" dy="0.61" layer="1" locked="yes" roundness="25"/>
+<smd name="13" x="4.735" y="2.54" dx="1.5" dy="0.61" layer="1" locked="yes" roundness="25"/>
+<smd name="14" x="4.735" y="3.81" dx="1.5" dy="0.61" layer="1" locked="yes" roundness="25"/>
+</package>
+</packages>
+<symbols>
+<symbol name="INTERSIL_CA3046_0_0">
+<description>General Purpose NPN Transistor Array</description>
+<wire x1="0" y1="-33.02" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="-5.08" x2="40.64" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="40.64" y1="-5.08" x2="40.64" y2="-33.02" width="0.254" layer="94"/>
+<wire x1="40.64" y1="-33.02" x2="0" y2="-33.02" width="0.254" layer="94"/>
+<wire x1="0" y1="-7.62" x2="0" y2="-7.62" width="0.15" layer="94"/>
+<wire x1="0" y1="-10.16" x2="0" y2="-10.16" width="0.15" layer="94"/>
+<wire x1="40.64" y1="-7.62" x2="40.64" y2="-7.62" width="0.15" layer="94"/>
+<wire x1="40.64" y1="-22.86" x2="40.64" y2="-22.86" width="0.15" layer="94"/>
+<wire x1="40.64" y1="-10.16" x2="40.64" y2="-10.16" width="0.15" layer="94"/>
+<wire x1="0" y1="-12.7" x2="0" y2="-12.7" width="0.15" layer="94"/>
+<wire x1="40.64" y1="-12.7" x2="40.64" y2="-12.7" width="0.15" layer="94"/>
+<wire x1="40.64" y1="-25.4" x2="40.64" y2="-25.4" width="0.15" layer="94"/>
+<wire x1="0" y1="-15.24" x2="0" y2="-15.24" width="0.15" layer="94"/>
+<wire x1="40.64" y1="-15.24" x2="40.64" y2="-15.24" width="0.15" layer="94"/>
+<wire x1="40.64" y1="-27.94" x2="40.64" y2="-27.94" width="0.15" layer="94"/>
+<wire x1="0" y1="-17.78" x2="0" y2="-17.78" width="0.15" layer="94"/>
+<wire x1="40.64" y1="-17.78" x2="40.64" y2="-17.78" width="0.15" layer="94"/>
+<wire x1="40.64" y1="-30.48" x2="40.64" y2="-30.48" width="0.15" layer="94"/>
+<text x="0" y="-2.54" size="2.54" layer="95" align="top-left">&gt;NAME</text>
+<text x="-0.254" y="-33.782" size="2.54" layer="95" align="top-left">CA3046</text>
+<pin name="Q1_BASE" x="-5.08" y="-7.62" length="middle"/>
+<pin name="Q2_BASE" x="-5.08" y="-10.16" length="middle"/>
+<pin name="Q1_COLLECTOR" x="45.72" y="-7.62" length="middle" rot="R180"/>
+<pin name="Q1_Q2_EMITTER" x="45.72" y="-22.86" length="middle" rot="R180"/>
+<pin name="Q2_COLLECTOR" x="45.72" y="-10.16" length="middle" rot="R180"/>
+<pin name="Q3_BASE" x="-5.08" y="-12.7" length="middle"/>
+<pin name="Q3_COLLECTOR" x="45.72" y="-12.7" length="middle" rot="R180"/>
+<pin name="Q3_EMITTER" x="45.72" y="-25.4" length="middle" rot="R180"/>
+<pin name="Q4_BASE" x="-5.08" y="-15.24" length="middle"/>
+<pin name="Q4_COLLECTOR" x="45.72" y="-15.24" length="middle" rot="R180"/>
+<pin name="Q4_EMITTER" x="45.72" y="-27.94" length="middle" rot="R180"/>
+<pin name="Q5_BASE" x="-5.08" y="-17.78" length="middle"/>
+<pin name="Q5_COLLECTOR" x="45.72" y="-17.78" length="middle" rot="R180"/>
+<pin name="Q5_EMITTER" x="45.72" y="-30.48" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="INTERSIL_CA3046" prefix="Q">
+<description>General Purpose NPN Transistor Array</description>
+<gates>
+<gate name="G$0" symbol="INTERSIL_CA3046_0_0" x="0" y="0"/>
+</gates>
+<devices>
+<device name="INTERSIL_CA3046_0_0" package="INTERSIL_CA3046_0">
+<connects>
+<connect gate="G$0" pin="Q1_BASE" pad="2"/>
+<connect gate="G$0" pin="Q1_COLLECTOR" pad="1"/>
+<connect gate="G$0" pin="Q1_Q2_EMITTER" pad="3"/>
+<connect gate="G$0" pin="Q2_BASE" pad="4"/>
+<connect gate="G$0" pin="Q2_COLLECTOR" pad="5"/>
+<connect gate="G$0" pin="Q3_BASE" pad="6"/>
+<connect gate="G$0" pin="Q3_COLLECTOR" pad="8"/>
+<connect gate="G$0" pin="Q3_EMITTER" pad="7"/>
+<connect gate="G$0" pin="Q4_BASE" pad="9"/>
+<connect gate="G$0" pin="Q4_COLLECTOR" pad="11"/>
+<connect gate="G$0" pin="Q4_EMITTER" pad="10"/>
+<connect gate="G$0" pin="Q5_BASE" pad="12"/>
+<connect gate="G$0" pin="Q5_COLLECTOR" pad="14"/>
+<connect gate="G$0" pin="Q5_EMITTER" pad="13"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CENTROID_NOT_SPECIFIED" value="No"/>
+<attribute name="DATASHEET" value="https://upverter.com/datasheet/b254393e30d4d2b983894b3f1b87c3991bb1cc66.pdf"/>
+<attribute name="IPC_LAND_PATTERN_NAME" value="DIP793W46P254L1917H533Q14"/>
+<attribute name="MECHANICAL_DETAILS" value="http://www.intersil.com/content/dam/Intersil/documents/icm7/icm7555-56.pdf"/>
+<attribute name="MF" value="Intersil"/>
+<attribute name="MPN" value="CA3046"/>
+<attribute name="PACKAGE" value="PDIP14"/>
+<attribute name="PREFIX" value="Q"/>
+<attribute name="TEMPERATURE_RANGE_HIGH" value="+125°C"/>
+<attribute name="TEMPERATURE_RANGE_LOW" value="-55°C"/>
+<attribute name="VOLTAGE" value=""/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
